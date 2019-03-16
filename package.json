@@ -1,6 +1,10 @@
 {
   "name": "Indecision-App",
   "version": "1.0.0",
+  "engines": {
+    "node": "11.9.0",
+    "npm": "6.5.0"
+  },
   "main": "index.js",
   "author": "Rasitha Ariyarathna",
   "license": "MIT",
