@@ -5,8 +5,9 @@
   "author": "Rasitha Ariyarathna",
   "license": "MIT",
   "scripts": {
-    "serve": "webpack",
-    "build": "webpack-dev-server"
+    "build": "webpack",
+    "serve": "webpack-dev-server",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
